@@ -1,21 +1,32 @@
-**Migraine Type Prediction**
+# Migraine Type Prediction
 
-**Overview**
+## Description
 
-This project aims to predict migraine types based on user-inputted symptoms and medical history using a machine learning model trained with a Random Forest Classifier. The project is built using Python and Streamlit for an interactive web-based interface.
+The **Migraine Type Prediction** app is designed to help identify different types of migraines based on user-inputted symptoms and characteristics. Using machine learning, specifically a Random Forest Classifier, the model predicts the type of migraine a user is likely to experience. Additionally, the app provides preventive measures tailored to each predicted migraine type.
 
-**Features**
+This tool is useful for individuals suffering from migraines who wish to better understand their condition and take preventive actions based on their symptoms.
 
-Loads and preprocesses migraine-related data from a CSV file.
+## Features
 
-Encodes categorical data using Label Encoding.
+- **Migraine Type Prediction**: Predicts the type of migraine based on user input.
+- **Personalized Preventive Measures**: Provides tailored preventive measures for different migraine types.
+- **User-Friendly Interface**: Simple and intuitive interface built with Streamlit.
+- **Data Preprocessing**: Handles missing values and encodes categorical features.
+- **Model Training and Tuning**: A Random Forest Classifier is trained on the data and tuned using GridSearchCV for optimal performance.
 
-Scales numerical features using MinMaxScaler.
+## Technologies Used
 
-Trains a Random Forest Classifier with hyperparameter tuning using GridSearchCV.
+- **Python**: Programming language used for developing the application.
+- **Streamlit**: Web framework for creating the interactive interface.
+- **Pandas**: Data manipulation and preprocessing.
+- **Scikit-learn**: For machine learning (RandomForestClassifier, preprocessing, and model tuning).
+- **Pickle**: For saving and loading the trained model.
+- **Matplotlib**: For visualizations (optional for model evaluation).
 
-Provides predictions and preventive measures for different types of migraines.
-
-Allows users to enter symptom data via a Streamlit UI.
-
-Displays additional information about migraine triggers, types, and treatment options.
+## Example Output:
+- Prediction: "Migraine without aura"
+- Preventive measures:
+    - Maintain regular sleep patterns.
+    - Stay hydrated.
+    - Identify and avoid trigger foods.
+    - Manage stress.
