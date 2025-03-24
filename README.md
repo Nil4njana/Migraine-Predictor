@@ -1,10 +1,10 @@
-#Migraine Type Prediction
+**Migraine Type Prediction**
 
-#Overview
+**Overview**
 
 This project aims to predict migraine types based on user-inputted symptoms and medical history using a machine learning model trained with a Random Forest Classifier. The project is built using Python and Streamlit for an interactive web-based interface.
 
-#Features
+**Features**
 
 Loads and preprocesses migraine-related data from a CSV file.
 
